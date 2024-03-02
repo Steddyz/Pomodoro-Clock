@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.background {
+  background-color: #49c5b6;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  min-width: 1200px;
+  height: 100vh;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+  min-width: 1200px;
+}
+
+.header {
+  padding: 15px;
+  height: 65px;
+  width: 100%;
+  background-color: #df6c4f;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.title {
+  padding: 0 auto;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.github {
+  margin: 5px;
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 auto;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.github:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 60px;
+  width: 380px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: #df6c4f;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.2784313725);
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px;
+  width: 140px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 15px 10px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn:last-child {
+  margin-right: 0px;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.6352941176);
+}
+
+.time {
+  font-size: 40px;
+  margin: 30px;
+}
+
+.btn-start {
+  padding: 15px;
+  width: 140px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn-start:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.switch-header {
+  background-color: #5ac2b6;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.switch-background {
+  background-color: #dd8670;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.switch-wrapper {
+  background-color: #5ac2b6;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+@media (max-width: 1220px) {
+  .nav {
+    width: 1100px;
+    min-width: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 500px;
+    min-width: 500px;
+  }
+  .nav {
+    width: 900px;
+    min-width: 100px;
+  }
+}
+@media (max-width: 920px) {
+  .nav {
+    width: 800px;
+    min-width: 100px;
+  }
+}
+@media (max-width: 820px) {
+  .nav {
+    width: 600px;
+    min-width: 100px;
+  }
+}
+@media (max-width: 620px) {
+  .nav {
+    width: 300px;
+    min-width: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 370px;
+    min-width: 100px;
+  }
+  .btn {
+    background-color: rgba(0, 0, 0, 0.2784313725);
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 5px 5px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .btn:last-child {
+    margin-right: 0px;
+  }
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.6352941176);
+  }
+  .btn-start {
+    width: 100px;
+  }
+}
